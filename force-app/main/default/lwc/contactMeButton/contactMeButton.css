@@ -1,0 +1,38 @@
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.btn-container > * {
+    width: 20%;
+}
+
+.launch-button {
+    width: 20%;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* background-color: var(--dxp-g-brand); */
+    /* color: var(--dxp-g-brand-contrast); */
+    color: #FFFFFF;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    background-color: #BEADFA;
+}

@@ -10,7 +10,7 @@
     margin-right: 20px;
     width: 50%;
     /* padding-left: 200px; */
-    background-color: pink;
+    /* background-color: pink; */
     
 }
 
@@ -23,12 +23,11 @@
     font-size: 19px;
 }
 
-.button {
-    /* background-color: brown; */
+/* .button {
     margin-top: 20px;
     border-radius: 8px;
     padding: 5px;
-}
+}*/
 
 .intro-img {
     /* margin: 0 auto; */
