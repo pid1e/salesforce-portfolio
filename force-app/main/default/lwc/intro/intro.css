@@ -2,6 +2,9 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    max-width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .intro-text {
@@ -15,7 +18,7 @@
 }
 
 .intro-text h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -33,7 +36,7 @@
     /* margin: 0 auto; */
     margin: 30px 0px;
     /* padding-right: 200px; */
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .intro-img img {
