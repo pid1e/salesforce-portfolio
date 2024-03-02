@@ -1,0 +1,71 @@
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: var(--dxp-g-neutral); */
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    display: flex;
+    /* width: fit-content; */
+    height: fit-content;
+    justify-content: center;
+   
+}
+  
+.card {
+    display: flex;
+    align-items: center; /*brings contents to center horizontally*/
+    justify-content: center; /*brings contents to center vertically*/
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 20px 10px;
+    
+}
+    
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+    height: 100px;
+    width: 100px;
+    /* object-fit: contain; */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+  
+.text-container {
+    padding: 8px;
+    margin: 8px;
+    width: 60%;
+   
+}
+  
+/* .text-container h4 {
+    text-align: center;
+    font-size: 28px;
+}*/
+                            
+/* .text-container p {
+    font-size: 18px;
+} */
+                            
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .card-container {
+        display: flex;
+    }
+
+    .card {
+        width: 30%;
+    }
+  }
+    
