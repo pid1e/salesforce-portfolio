@@ -35,6 +35,16 @@ img {
     /* object-fit: contain; */
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
+
+/* .glow4:hover {
+    color: rgb(26, 79, 117);
+    box-shadow: 0 0 100px rgb(236, 172, 143);;
+    position:relative 
+} */
+
+img:hover {
+    transform: scale(1.23);
+}
   
 .text-container {
     padding: 8px;
