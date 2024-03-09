@@ -28,7 +28,7 @@
 img {
     border-radius: 10px;
     height: 300px;
-    width: 50%;
+    width: 45%;
     object-fit: contain;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -65,15 +65,23 @@ h4 {
     font-size: 20px;
 }
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (max-width: 600px)  {
+    h1 {
+        font-size: 24px;
+    }
     .card-container {
         display: flex;
     }
-
     .card {
-        /* width: 100%; */
-        flex-direction: vertical;
+        flex-direction: column;
+        margin: 20px 5px;
+        padding: 2px;
+        padding-top: 10px ;
+        /* height: 700px; */
+    }
+    img {
+        height: auto;
+        width: auto;
     }
   }
     
