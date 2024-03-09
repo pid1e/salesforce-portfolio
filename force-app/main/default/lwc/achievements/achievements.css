@@ -1,59 +1,49 @@
 .outer-container {
     max-width: 1200px;
     margin: 0 auto;
-    /* background-color: var(--dxp-g-neutral); */
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
-.card-container {
-    display: flex;
-    /* width: fit-content; */
-    height: fit-content;
-    justify-content: center;
-   
-}
-  
+ 
 .card {
     display: flex;
-    align-items: center; /*brings contents to center horizontally*/
-    justify-content: center; /*brings contents to center vertically*/
+    align-items: center;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
-    margin: 20px 10px;
-    
+    margin: 20px;
+    /* background-color: #f2f2f0; */
+    /* background-color: #eff0f2; */
+    padding: 10px;
 }
-    
+
+.a {
+    height: 300px;
+    width: 50%;
+}
+
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
-    border-radius: 5px 5px 0 0;
-    height: 100px;
-    width: 100px;
-    /* object-fit: contain; */
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    border-radius: 10px;
+    height: 300px;
+    width: 50%;
+    object-fit: contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* .glow4:hover {
-    color: rgb(26, 79, 117);
-    box-shadow: 0 0 100px rgb(236, 172, 143);;
-    position:relative 
+
+
+/* .wayfair-achievement:hover {
+    background-image: {sharkbowl2ImageURL};
+
+
 } */
 
-img:hover {
-    transform: scale(1.23);
-}
-  
 .text-container {
     padding: 8px;
-    margin: 8px;
-    width: 60%;  
-}
-
-h5:hover{
-    color: rgb(67, 133, 209);
+    margin: 8px 20px;
 }
   
 /* .text-container h4 {
@@ -61,14 +51,18 @@ h5:hover{
     font-size: 28px;
 }*/
                             
-/* .text-container p {
+.text-container p {
     font-size: 18px;
-} */
+}
                             
 h1 {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,7 +72,8 @@ h1 {
     }
 
     .card {
-        width: 30%;
+        /* width: 100%; */
+        flex-direction: vertical;
     }
   }
     

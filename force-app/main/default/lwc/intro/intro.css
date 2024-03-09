@@ -46,8 +46,26 @@
     border-radius: 7px; 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
     .intro {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
+    .intro-img {
+        margin-bottom:0px;
+    }
+    .intro-text {
+        margin-top: 1em;
+        width: 90%;
+        justify-content: center;
+    }
+    .intro-text h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .intro-text h2 {
+        font-size: 18px;
+    }
+
 }

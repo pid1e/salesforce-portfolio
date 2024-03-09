@@ -67,7 +67,15 @@ h4 {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
+    .custom-carousel-container {
+        width: 100%; /* Adjust the width of the carousel container for full width */
+        max-width: 100%; /* Ensure it doesn't exceed the screen width */
+        height: 300px; /* Adjust the height of the carousel container as needed */
+    }
+
+    
+}
 
     /* .card-container {
         display: flex;
@@ -77,5 +85,5 @@ h4 {
         width: 100%;
         flex-direction: vertical;
     } */
-  }
+  
     

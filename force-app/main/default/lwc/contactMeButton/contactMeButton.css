@@ -38,3 +38,10 @@ textarea {
     /* background-color: #8266ea; */
     /* background-color: #9076ec; */
 }
+
+@media only screen and (max-width: 600px) {
+    .launch-button {
+        width: 50%;
+    }
+
+}
