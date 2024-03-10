@@ -1,5 +1,6 @@
 import { LightningElement } from 'lwc';
 import IMAGES from '@salesforce/resourceUrl/Images'
+import PDF from '@salesforce/resourceUrl/Pdf'
 
 export default class Achievements extends LightningElement {
     sharkbowl1ImageURL = IMAGES + '/sharkbowl1.jpg';
@@ -7,8 +8,7 @@ export default class Achievements extends LightningElement {
     projectEvolveImageURL = IMAGES + '/projectEvolve.jpg';
     projectEvolve1ImageURL = IMAGES + '/projectEvolve1.jpg';
     projectEvolve2ImageURL = IMAGES + '/projectEvolve2.png';
-
-    sharkbowlProjectURL = '@salesforce/resourceUrl/Sharkbowl.pdf';
+    sharkbowlProjectURL = PDF + '/Sharkbowl.pdf';
 
     mouseOver (evt) {
         var dataId = evt.target.getAttribute('data-id');

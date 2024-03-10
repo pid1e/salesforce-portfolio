@@ -1,19 +1,13 @@
 {
   "orgName": "priya company",
   "edition": "Developer",
-  "features": ["Communities", "Sites", "EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
-    },
-    "communitiesSettings": {
-      "enableNetworksEnabled": true
-    },
-    "experienceBundleSettings": {
-      "enableExperienceBundleMetadata": true
     }
   }
 }

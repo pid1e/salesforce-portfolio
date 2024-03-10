@@ -25,7 +25,6 @@
     border-radius: 5px; /* 5px rounded corners */
     margin: 20px 10px;
     width: 30%;
-    
 }
     
 /* Add rounded corners to the top left and the top right corner of the image */
@@ -81,5 +80,4 @@ h1 {
         width: auto;
         height: auto;
     }
-  }
-    
+}

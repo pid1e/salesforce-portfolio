@@ -6,5 +6,4 @@ export default class SkillCards extends LightningElement {
     capgeminiImageURL = IMAGES + '/Cap-logo.jpeg';
     atombergImageURL = IMAGES + '/atom-logo.png';
     lntImageURL = IMAGES + '/Lntlogo.jpeg';
-    
 }
